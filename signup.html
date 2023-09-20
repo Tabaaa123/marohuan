@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <form action="Home.html">
+            <h2>Create Account</h2><br><br>
+            <table id="table1">
+                <label>
+                    <tr>
+                        <td><input type="text" id="first" onkeyup="validate();" placeholder="First Name">
+                        <td>
+                            <div id="errFirst"></div>
+                        </td>
+                    </tr>
+                </label>
+                <tr>
+                    <td> <input type="text" id="last" onkeyup="validate();" placeholder="Last Name" /></td>
+                    <td>
+                        <div id="errLast"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" id="email" onkeyup="validate();" placeholder="Email address" /></td>
+                    <td>
+                        <div id="errEmail"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="uid" onkeyup="validate();" placeholder="User ID" /></td>
+                    <td>
+                        <div id="errUid"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="password" id="password" onkeyup="validate();" placeholder="Password" /></td>
+                    <td>
+                        <div id="errPassword"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="password" id="confirm" onkeyup="validate();" placeholder="Confirm Password" /></td>
+                    <td>
+                        <div id="errConfirm"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="create" value="Submit" onclick="validate();" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="script/signup.js"></script>
+</body>
+
+</html>

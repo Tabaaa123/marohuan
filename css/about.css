@@ -1,0 +1,21 @@
+.section-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right:10px;
+    font-family: 'inter';
+}
+img {
+    height: 300px;
+    border-radius: 150px;
+}
+#hugh{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+}
+body {
+    background-color: #F6F1F1;
+}

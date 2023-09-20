@@ -434,7 +434,7 @@ a {
 
 .container .box {
     width: calc(33% - 10px);
-    background: #0c0c0c;
+    background: #4c4c4cda;
     display: flex;
     flex-direction: column;
     justify-content: center;
